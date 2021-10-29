@@ -1,0 +1,123 @@
+.con{
+    height: 100vh;
+    width: 100vw;
+}
+
+.nav-bar{
+    height: 9%;
+}
+
+.history-input, .menu-left, .wrapper-balance, .balance-box, .wrapper-content-lower, .content-menu, .trans-history{
+    border-radius: 1.5rem;
+}
+
+.bg-primary-zwallet, .balance-box{
+    background-color: #6379F4;
+}
+
+.footer{
+    height: 10%;
+    background-color: #6379F4;
+}
+
+.change{
+    border-left: solid 3px transparent;
+    transition: .5s;
+}
+
+.change:hover{
+    border-left: solid 3px #6474af;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+.button {
+    background-color: #ffffff;
+    border: transparent;
+    box-shadow: 0px 4px 20px rgb(0 0 0 / 5%);
+    border-radius: 12px;
+    color: #6379F4;
+}
+
+.search-input {
+    background: transparent;
+    border: 0;
+    margin-left: 10px;
+}
+
+.search-icon {
+    margin-left: 5px;
+}
+
+.continue-button {
+    border: 0.5px solid #6379F4;
+    background: #6379F4;
+    box-shadow: 0px 6px 75px rgb(100 87 87 / 5%);
+    border-radius: 12px;
+    padding: 15px 35px 15px 35px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.continue-button:hover{
+    cursor: pointer;
+    background-color: #FFFFFF;
+    color:#6379F4;
+}
+
+.input-amount {
+    font-size: 1.5rem;
+    line-height: 42px;
+    text-align: center;
+    color: #639AF4;
+    border: 0;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .title-history{
+        color: white!important;
+    }
+    .wrapper-content-lower{
+        height: 90%!important;
+    }
+
+
+    .trans-history{
+        background-color: transparent!important;
+        box-shadow: none!important;
+    }
+
+    .history-lower{
+        height: 90%!important;
+    }
+
+    .history-upper{
+        height: 25%!important;
+        background-color: #6379F4;
+        border-bottom-left-radius: .5rem;
+        border-bottom-right-radius: .5rem;
+    
+    }
+
+    .recipient{
+        padding: 1rem;
+        background-color: white;
+        border-radius: 12px;
+        box-shadow: ;
+    }
+
+
+    .history-input{
+        background-color: #ffffff!important;
+    }
+    
+}

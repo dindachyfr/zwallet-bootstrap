@@ -1,0 +1,39 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+}
+
+.box-left{
+    background-color:  #6379F4;
+    padding:55px;
+}
+
+.box{
+    height: 100vh;
+}
+
+.btn{
+    border-radius: 10px;
+
+}
+
+
+.btn:hover{
+    background-color: #6379F4;
+    color: #ffffff;
+}
+
+.titletext{
+    height: 10rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+body{
+    overflow: hidden;
+}
+
+.link{
+    text-decoration: none;
+}
+
