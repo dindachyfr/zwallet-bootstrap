@@ -28,6 +28,8 @@
 .change:hover{
     border-left: solid 3px #6474af;
     cursor: pointer;
+    color: #6379F4!important;
+
 }
 
 a{
