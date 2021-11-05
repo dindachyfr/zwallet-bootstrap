@@ -31,10 +31,6 @@
     color: #6379F4;
 }
 
-.shadow-sm:hover{
-    box-shadow: 0 .125rem .25rem #6379F4!important)
-}
-
 a{
     text-decoration: none;
 }
